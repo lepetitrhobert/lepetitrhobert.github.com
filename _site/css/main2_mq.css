@@ -9,14 +9,14 @@
     }   
 
     #site_header {
-        background-image: url('/favicon.svg');
+        background-image: url('/images/favicon.svg');
        
         min-height: 200px;
         width: 200px;
     }
 
     #site_header:hover {
-        background-image: url('/favicon.svg');
+        background-image: url('/images/favicon.svg');
     }
 
     /***************************************************************
