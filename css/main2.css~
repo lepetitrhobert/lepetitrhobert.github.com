@@ -9,7 +9,7 @@
 }
 
 #site_header {
-    background-image: url('/images/logo.png');
+    background-image: url('/images/logo.svg');
     background-repeat: no-repeat;
 
     padding: 0;
@@ -30,7 +30,7 @@
 }
 
 #site_header:hover {
-    background-image: url('/images/logo_hover.png');
+    background-image: url('/images/logo_hover.svg');
 }
 
 #site_footer {
