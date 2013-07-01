@@ -1,0 +1,149 @@
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+
+#logo {
+    margin-top:100px;
+    background-image: url('/logo.svg');
+    background-repeat: no-repeat;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    height:166px; width:528px;
+    padding:0;
+    text-indent:-9999px;
+}
+
+#logo:hover {
+    background-image: url('/logo_hover.svg');
+}
+
+ul.posts {
+    font-size: 110%;
+    list-style-type: none;
+    margin-bottom: 2em;
+}
+
+ul.posts li {
+    line-height: 90%;
+    color: #008080;
+}
+
+ul.posts p {
+    font-size: 75%;
+    line-height: 100%;
+    color: #aaa;
+}
+
+ul.posts span {
+    color: #008080;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 80%;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+
+.site {
+  text-align: justify;
+  width: 42em;
+  margin: 3em auto 2em;
+  line-height: 1.5em;
+}
+
+.site .meta {
+  color: #008080;
+}
+
+.site .footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+  line-height:100%;
+  float:right;
+}
+
+.site .footer a {
+  color: #666;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+.post div {
+    font-size: 110%;
+}
+
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+h2 { 
+    color: #6d4949;
+    line-height: 10%;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}
+
+.posts {
+    font-size:90%;
+    padding: 0px;
+}
+
+li {
+    padding:0 4px;
+    color:#ccc;
+    list-style:none;
+}
+
+ul.posts li span {
+    float:right;
+    color: #008080;
+}
+
+ul.posts li a {
+    text-decoration: none;
+    color: #6d4949
+}
+
+ul.posts li div {
+    font-size: 12px;
+}
