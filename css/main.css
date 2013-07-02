@@ -51,7 +51,7 @@ div.preloader img {
 
     line-height:100%;
 
-    color: #666;
+    color: #aaa;
 }
 
 #site_footer a {
@@ -113,6 +113,12 @@ div.post_header p {
 
 div.post_header h2 {
     color: #6d4949;
+}
+
+div.post {
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: solid 3px #aaa;
 }
 
 div.post h3 {
