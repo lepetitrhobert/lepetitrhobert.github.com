@@ -64,7 +64,6 @@ div.preloader img {
 ul.posts {
     list-style-type: none;
     margin-bottom: 2em;
-    border-bottom: 1px solid #ccc;
 }
 
 ul.posts li {
@@ -76,6 +75,7 @@ ul.posts p {
     font-size: 75%;
     line-height: 100%;
     color: #aaa;
+    margin-top: -0.5em;
 }
 
 ul.posts span {
@@ -83,6 +83,8 @@ ul.posts span {
     font-size: 80%;
     float: right;
 }
+
+ul.posts div { border-bottom: 1px solid #ccc; }
 
 ul.posts li a {
     text-decoration: none;
