@@ -64,6 +64,7 @@ div.preloader img {
 ul.posts {
     list-style-type: none;
     margin-bottom: 2em;
+    border-bottom: 1px solid #ccc;
 }
 
 ul.posts li {
