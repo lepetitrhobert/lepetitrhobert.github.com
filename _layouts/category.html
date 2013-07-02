@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div id="home">
+    <ul class="posts">
+        {% for post in site.posts %}
+        {% if post.category == page.title %}
+                <div><li>
+                    <span>le {{ post.date | date: "%d/%m/%Y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a> <br />
+                </div> 
+                
+                    <p> {{ post.excerpt }} </p>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>

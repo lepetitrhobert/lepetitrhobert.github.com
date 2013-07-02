@@ -1,6 +1,7 @@
 ---
 layout : post
 title : "Hello World !"
+category : "autre"
 ---
 
 Bonjour à tous,<br />

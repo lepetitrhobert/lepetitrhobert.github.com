@@ -91,6 +91,11 @@ ul.posts li a {
     color: #6d4949;
 }
 
+ul.posts a.category {
+    display: inline;
+    font-weight: bold;
+}
+
 /********************************************
  *              POST
  * ******************************************/
