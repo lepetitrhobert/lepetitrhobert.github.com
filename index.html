@@ -8,7 +8,7 @@ title: Le Petit Rho Bert
         {% for post in site.posts %}
         <div>
             <li>
-                <span>{% if post.category != null %}dans <a class="category" href="/categories/{{ post.category }}.html">{{ post.category }}</a>{% endif %} le {{ post.date | date: "%d/%m/%Y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a> <br />
+                <span>dans <a class="category" href="/categories/{{ post.category }}.html">{{ post.category }}</a> le {{ post.date | date: "%d/%m/%Y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a> <br />
         </div>
             
                 <p> {{ post.excerpt }} </p>

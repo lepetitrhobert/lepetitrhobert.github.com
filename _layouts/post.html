@@ -5,8 +5,7 @@ comments: true
 
 <div class="post_article">
     <div class="post_header">
-        <h2>{{ page.title }}</h2>
-        <p class="meta">{{ page.date | date: "%d/%m/%Y" }}</p>
+        <span>dans <a class="category" href="/categories/{{ page.category }}.html">{{ page.category }}</a> le {{ page.date | date: "%d/%m/%Y" }}</span> <h2>{{ page.title }}</h2>
     </div>
 
     <div class="post">
